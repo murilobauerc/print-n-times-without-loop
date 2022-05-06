@@ -1,4 +1,4 @@
-defmodule Servy.Recursion do
+defmodule Recursion do
   @moduledoc """
     This recursion strategy solution prints numbers n times without using any kind of loop.
     To run this code, you must have:
@@ -10,7 +10,7 @@ defmodule Servy.Recursion do
   @doc """
   Returns print of numbers n times
   ## Examples
-      iex> Servy.Recursion.print_n_times()
+      iex> Recursion.print_n_times()
   """
   def loop([head | tail]) do
     IO.puts(head)
